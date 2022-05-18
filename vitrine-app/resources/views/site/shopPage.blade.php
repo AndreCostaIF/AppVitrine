@@ -27,7 +27,7 @@
               </div>
         </div>
         <div class="carousel-item">
-            <a href="#"> <img class="d-block w-100" src="{{ url('site/assets/rog2.jpg') }}" alt="Segundo Slide"> </a>
+            <a href="#"> <img class="d-block w-75 mx-auto" src="{{ url('site/assets/rog2.jpg') }}" alt="Segundo Slide"> </a>
         </div>
         
     </div>

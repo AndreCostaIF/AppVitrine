@@ -22,7 +22,7 @@
 
 <div class="row">
     <div class="col-sm-6 col-md-6 col-lg-8">
-        <div class="boxProduct">
+        <div class="boxProduct bg-light">
             <div class="boxImgProduct">
                 <img src="{{ asset('site/assets/laptop.jpg') }}" alt="" class="img-fluid">
             </div>
@@ -119,7 +119,7 @@
         </div>
 
     </div>
-    <div class="col-sm-6 col-md-6 col-lg-4 boxProductPrice">
+    <div class="col-sm-6 col-md-6 col-lg-4 boxProductPrice bg-light">
 
         <div class="alert alert-primary mt-4" role="alert">
             Preço:
@@ -163,7 +163,7 @@
             </div>
           </div>
 
-          <div class="d-flex mt-4 flex-column bg-light">
+          <div class="d-flex mt-4 flex-column aux">
             <div class="p-2 bd-highlight"> 
                 <p class="subtitle">Retirar na loja <i class="bi bi-send-check"></i><br><span class="details">Logo após confirmação</span></p>  
             </div>
