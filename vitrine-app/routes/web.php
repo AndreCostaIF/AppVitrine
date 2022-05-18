@@ -15,4 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('site.index');
-});
+})->name('home');
+
+Route::get('lojas/{idCate}', function () {
+    return view('site.shopListPage');
+})->name('lojas');
+
+Route::get('loja/{idLoja}', function () {
+    return view('site.shopPage');
+})->name('shopPage');
+
+
+Route::get('loja/{idLoja}/{idCateProd}', function () {
+    return view('site.productListPage');
+})->name('productListPage');
+
+Route::get('loja/{idLoja}/{idCateProd}/{idProd}', function () {
+    return view('site.productPage');
+})->name('productPage');

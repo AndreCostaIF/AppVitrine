@@ -16,7 +16,7 @@
 
 <body>
     <!--HEADER-->
-    <header >
+    <header class="mb-5">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
                 <a class="navbar-brand" href="#">

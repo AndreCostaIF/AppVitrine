@@ -51,7 +51,8 @@
                 <div class="subtitle"><a href="#"> Apple MacBook Pro 15" Touch Bar MPTU2LL/A 256GB (Prata)</a>
                 </div>
                 <div class="subtitle mt-2  opacity-75">
-                    Vendido por: <a href=""><span class="badge bg-primary opacity-75">EiPou</span></a>
+                    
+                    Vendido por: <a href="{{route('lojas',[1])}}"><span class="badge bg-primary opacity-75">EiPou</span></a>
                 </div>
             </div>
 
@@ -85,7 +86,7 @@
                 <span class="badge bg-info mt-2"><a href="#" class="text-light">Notebook</a> </span>
                 <div class="subtitle"><a href="#"> Apple Ipad Pro 12" Touch Bar MPTU2LL/A 256GB (Rosa)</a></div>
                 <div class="subtitle mt-2  opacity-75">
-                    Vendido por: <a href=""><span class="badge bg-primary opacity-75">Loja X</span></a>
+                    Vendido por: <a href="{{route('lojas',[2])}}"><span class="badge bg-primary opacity-75">Loja X</span></a>
                 </div>
             </div>
 
@@ -320,7 +321,7 @@
     <div class="row">
         <!--CATEGORY-->
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
-            <a href="#">
+            <a href="{{route('lojas',["informatica"])}}">
                 <div class="boxCategory bg-light border text-center">
                     <div class="box">
 
@@ -344,6 +345,7 @@
             </a>
         </div>
         <!--//CATEGORY-->
+       
         <!--CATEGORY-->
         <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
             <a href="#">

@@ -92,7 +92,54 @@ a{
     color: black;
     
 }
+
+.boxProduct, .boxProductPrice{
+    border: 1px solid black;
+    height: 40rem;
     
+    
+
+}
+
+.boxImgProduct{
+    
+    height: 85%;
+    width: 100%;
+   
+    text-align: center;
+}
+
+.boxImgProduct img{
+    height: 100%;
+    max-width: 100%; 
+   
+}
+    
+.imgFooter{
+    height: 4rem;
+    width: 4rem;
+   
+}
+
+.imgFooter img{
+    height: 100%;
+    max-width: 100%;
+     
+}
+
+.footerProduct .imgFooter + .imgFooter{ 
+    margin-left: 12px;
+    
+}
+
+.btnGroup{
+    margin-left: 10px;
+}
+
+.details{
+    opacity: 0.5;
+    font-size: 14px;
+}
 
 .logo{
     max-width: 75px;
@@ -187,6 +234,9 @@ header .nav-link:hover{
     header .navbar-collapse{
         margin-left: 15px;
         margin-right: 15px;
+    }
+    .buttonGroup button{
+        margin-bottom: 10px;
     }
 }
 @media(max-width: 991.98px){
