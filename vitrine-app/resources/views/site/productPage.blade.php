@@ -151,7 +151,13 @@
                     </div>
                     <div class="col-5 btnGroup">
                         <button class="btn btn-primary" type="submit" >Adicionar ao Carrinho <i class="bi bi-cart"></i></button>
-                </div>
+                         
+                    </div>
+                    <div class="col-1 favoriteProd">
+                        <a href="#"><i class="bi bi-suit-heart favorite"></i></a>
+                    </div>
+
+                    
                     
                 </form>
             </div>

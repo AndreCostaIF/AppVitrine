@@ -79,7 +79,7 @@ a{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
-.controlCard .favorite:hover{
+.favorite:hover{
     color: red;
     
 }
@@ -139,6 +139,21 @@ a{
 .details{
     opacity: 0.5;
     font-size: 14px;
+}
+
+.favoriteProd{
+    
+    
+    text-align: center;
+    margin-left: 8px;
+    font-size: 40px;
+}
+
+.favoriteProd a{
+    position: relative;
+    
+    text-decoration: none;
+    
 }
 
 .logo{
