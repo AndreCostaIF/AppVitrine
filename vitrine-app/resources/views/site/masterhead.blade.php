@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse menu-list">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">início </a>
+                            <a class="nav-link active" href="{{route('home')}}">início </a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -42,7 +42,7 @@
                             <a class="nav-link" href="#">Destaques</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portal do Parceiro</a>
+                            <a class="nav-link" href="{{route('portaldoparceiro')}}" target="blank">Portal do Parceiro</a>
                         </li>
 
                     </ul>

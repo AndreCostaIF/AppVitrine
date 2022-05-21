@@ -33,3 +33,8 @@ Route::get('loja/{idLoja}/{idCateProd}', function () {
 Route::get('loja/{idLoja}/{idCateProd}/{idProd}', function () {
     return view('site.productPage');
 })->name('productPage');
+
+Route::get('/portaldoparceiro', function () {
+    return view('partener.login');
+})->name('portaldoparceiro');
+
