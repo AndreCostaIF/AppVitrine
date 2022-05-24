@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 //responsive.css tem que sempre ser o ultimo arquivo
  mix.styles(['resources/views/site/css/config.css', 'resources/views/site/css/header.css', 'resources/views/site/css/responsive.css'], 'public/site/css/main.css');
-
+ mix.styles(['resources/views/partener/css/custom.css', 'resources/views/site/css/header.css', 'resources/views/site/css/responsive.css'], 'public/partener/css/custom.css');
  mix.sass('resources/views/scss/bootstrap.scss',
  'public/bootstrap.css');
 

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ url('bootstrap.css') }}">
     <link rel="stylesheet" href="{{ url('site/css/main.css') }}">
+    <link rel="stylesheet" href="{{ url('partener/css/custom.css') }}">
 
 
 </head>
@@ -26,7 +27,7 @@
                 <div class="collapse navbar-collapse menu-list">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="{{ route('home') }}">início </a>
+                            <a class="nav-link active" href="{{ route('portaldoparceiro') }}">início </a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -39,11 +40,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destaques</a>
+                            <a class="nav-link" href="#"> Criar Destaques</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('portaldoparceiro') }}" target="blank">Portal do
-                                Parceiro</a>
+                            <a class="nav-link" href="{{ route('home') }}" target="blank">Vitrine digital</a>
                         </li>
 
                     </ul>
@@ -206,3 +206,4 @@
             </div>
         </div>
         <!--//CART-->
+        

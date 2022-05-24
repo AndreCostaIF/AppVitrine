@@ -11,5 +11,17 @@
     header .navbar-collapse{
         width: 100%;
     }
+
+    .titleForm{
+        width: 100%;
+    }
+
+    .bg-login{
+        background-size: 75% 50%;
+        background-position: 130% 25%;
+        
+    }
+
+    
     
  }

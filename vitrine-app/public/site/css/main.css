@@ -12,15 +12,28 @@ a{
     color: black;
 }
 
+.customLink{
+    color: var(--primary);
+}
+
+.customLink:hover{
+    color: var(--primary-dark);
+}
+
+.titleForm{
+    width: 50%;
+}
 
 
 .title{
+    font-family: 'Viaoda Libre', sans-serif;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     color: var(--primary);
 }
 .subtitle{
+    font-family: 'Syne', sans-serif;
     font-weight: 900;
     opacity: 0.7;
     color: var(--secondary);  
@@ -135,8 +148,42 @@ a{
     
 }
 
+
+.imgCart{
+    min-height: 4rem;
+    min-width:  4rem;
+    
+    max-height: 4rem;
+    max-width:  4rem;
+
+    margin-right: 1rem;
+   
+}
+
+.imgCart img{
+    height: 100%;
+    max-width: 100%;
+     
+}
+
+
+
 .btnGroup{
     margin-left: 10px;
+}
+
+.botao-primario{
+    padding: 10px;
+    color: white;
+    background-color: var(--primary);
+    border: none;
+}
+
+.botao-primario:hover{
+    color: white;
+    background-color: var(--primary-dark);
+    border: none;
+    
 }
 
 .details{
@@ -348,5 +395,17 @@ header .nav-link:hover{
     header .navbar-collapse{
         width: 100%;
     }
+
+    .titleForm{
+        width: 100%;
+    }
+
+    .bg-login{
+        background-size: 75% 50%;
+        background-position: 130% 25%;
+        
+    }
+
+    
     
  }

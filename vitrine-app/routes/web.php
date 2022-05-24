@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\index;
+use App\Http\Controllers\ShopListPageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('site.index');
-})->name('home');
+Route::get('/', [index::class, 'index'])->name('home');
 
-Route::get('lojas/{idCate}', function () {
-    return view('site.shopListPage');
-})->name('lojas');
+Route::get('lojas/{idCate}', [ShopListPageController::class, 'index'])->name('lojas');
 
 Route::get('loja/{idLoja}', function () {
     return view('site.shopPage');
